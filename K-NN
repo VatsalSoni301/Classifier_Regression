@@ -1,0 +1,7 @@
+How to choose k--- k should be odd, k <=sqrt(n).
+
+non-parametric--- Decision boundary changes because of new point arrives.
+
+Time complexity--- Trainig time-O(1)  Training space-O(nd)   Testing time-O(nd+nlogk)    Testing space(nd+kd)
+
+weighted K-NN--- weight proportional to 1/distance.
